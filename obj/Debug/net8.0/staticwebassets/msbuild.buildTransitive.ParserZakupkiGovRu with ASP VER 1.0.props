@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ParserZakupkiGovRu with ASP VER 1.0.props" />
+</Project>

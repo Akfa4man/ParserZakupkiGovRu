@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParserZakupkiGovRu with ASP VER 1.0</name>
+    </assembly>
+    <members>
+        <member name="T:ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers.MainController">
+            <summary>
+            MainController class handles parsing requests.
+            </summary>
+        </member>
+        <member name="M:ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers.MainController.#ctor(ParserZakupkiGovRu_with_ASP_VER_1._0.Services.PageLoader,ParserZakupkiGovRu_with_ASP_VER_1._0.Services.PageParser,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor for MainController.
+            </summary>
+            <param name="pageLoader">PageLoader service.</param>
+            <param name="pageParser">PageParser service.</param>
+            <param name="configuration">Configuration settings.</param>
+        </member>
+        <member name="M:ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers.MainController.Parse(System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            Parses the given query and returns the parsed cards.
+            </summary>
+            <param name="request">Parse request containing query and max cards.</param>
+            <returns>Parsed cards as JSON string.</returns>
+        </member>
+    </members>
+</doc>

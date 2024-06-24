@@ -1,0 +1,6 @@
+@ParserZakupkiGovRu_with_ASP_VER_1._0_HostAddress = http://localhost:5264
+
+GET {{ParserZakupkiGovRu_with_ASP_VER_1._0_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
