@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M9ZErt5ofDM=",
+  "dgSpecHash": "AiZ2g5jrjgc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\ParserZakupkiGovRu with ASP VER 1.0\\ParserZakupkiGovRu with ASP VER 1.0.csproj",
+  "projectFilePath": "C:\\Работа C#\\ParserZakupkiGovRu\\ParserZakupkiGovRu with ASP VER 1.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\anglesharp\\0.16.0\\anglesharp.0.16.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

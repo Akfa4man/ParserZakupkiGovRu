@@ -2,7 +2,6 @@
 using Newtonsoft.Json;
 using ParserZakupkiGovRu_with_ASP_VER_1._0.Models;
 using ParserZakupkiGovRu_with_ASP_VER_1._0.Services;
-using System.Text;
 
 namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
 {
@@ -60,21 +59,7 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
                 allCards.AddRange(cards);
             }
 
-            string jsonString = SerializeCardsToJson(allCards);
-
-            return Ok(jsonString);
-        }
-        public static string SerializeCardsToJson(List<Card> cards)
-        {
-            StringBuilder stringBuilder = new StringBuilder();
-
-            foreach (Card card in cards)
-            {
-                string str = JsonConvert.SerializeObject(card, Formatting.Indented);
-                stringBuilder.AppendLine(str);
-            }
-
-            return stringBuilder.ToString();
+            return Ok(JsonConvert.SerializeObject(allCards, Formatting.Indented));
         }
     }
 }
@@ -93,7 +78,6 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
 //using Newtonsoft.Json;
 //using ParserZakupkiGovRu_with_ASP_VER_1._0.Models;
 //using ParserZakupkiGovRu_with_ASP_VER_1._0.Services;
-//using System.Text;
 
 //namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
 //{
@@ -161,21 +145,7 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
 //                allCards.AddRange(cards);
 //            }
 
-//            string jsonString = SerializeCardsToJson(allCards);
-
-//            return Ok(jsonString);
-//        }
-//        public static string SerializeCardsToJson(List<Card> cards)
-//        {
-//            StringBuilder stringBuilder = new StringBuilder();
-
-//            foreach (Card card in cards)
-//            {
-//                string str = JsonConvert.SerializeObject(card, Formatting.Indented);
-//                stringBuilder.AppendLine(str);
-//            }
-
-//            return stringBuilder.ToString();
+//            return Ok(JsonConvert.SerializeObject(allCards, Formatting.Indented));
 //        }
 //    }
 //}

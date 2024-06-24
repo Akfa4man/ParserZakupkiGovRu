@@ -1038,11 +1038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\ParserZakupkiGovRu with ASP VER 1.0\\ParserZakupkiGovRu with ASP VER 1.0.csproj",
+      "projectUniqueName": "C:\\Работа C#\\ParserZakupkiGovRu\\ParserZakupkiGovRu with ASP VER 1.0.csproj",
       "projectName": "ParserZakupkiGovRu with ASP VER 1.0",
-      "projectPath": "C:\\Users\\user\\source\\repos\\ParserZakupkiGovRu with ASP VER 1.0\\ParserZakupkiGovRu with ASP VER 1.0.csproj",
+      "projectPath": "C:\\Работа C#\\ParserZakupkiGovRu\\ParserZakupkiGovRu with ASP VER 1.0.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\ParserZakupkiGovRu with ASP VER 1.0\\obj\\",
+      "outputPath": "C:\\Работа C#\\ParserZakupkiGovRu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
