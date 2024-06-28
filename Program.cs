@@ -161,6 +161,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();//добавлено 25.06.2024
+
+app.UseAuthorization();//добавлено 25.06.2024
+
 app.MapControllers();
 
 app.Run();

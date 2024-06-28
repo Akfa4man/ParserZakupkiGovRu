@@ -17,7 +17,7 @@
             <param name="pageParser">PageParser service.</param>
             <param name="configuration">Configuration settings.</param>
         </member>
-        <member name="M:ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers.MainController.Parse(System.Int32,System.Nullable{System.Int32})">
+        <member name="M:ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers.MainController.Parse(ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers.MainController.ParseRequest)">
             <summary>
             Parses the given query and returns the parsed cards.
             </summary>

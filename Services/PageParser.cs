@@ -8,6 +8,8 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Services
     {
         public int GetTotalPages(IDocument document)
         {
+            if (document == null) throw new ArgumentNullException(nameof(document));
+
             var pageElements = document.QuerySelectorAll(".page");
             int totalPages = 1;
 
@@ -25,6 +27,8 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Services
 
         public List<Card> ParseAndRecordToClassCard(IDocument document, int maxCards)
         {
+            if (document == null) throw new ArgumentNullException(nameof(document));
+
             var cards = new List<Card>();
             var cardElements = document.QuerySelectorAll(".search-registry-entry-block");
 
