@@ -44,8 +44,6 @@ C:\Users\user\source\repos\ParserZakupkiGovRu with ASP VER 1.0\obj\Debug\net8.0\
 C:\Users\user\source\repos\ParserZakupkiGovRu with ASP VER 1.0\bin\Debug\net8.0\ParserZakupkiGovRu with ASP VER 1.0.xml
 C:\Users\user\source\repos\ParserZakupkiGovRu with ASP VER 1.0\obj\Debug\net8.0\ParserZakupkiGovRu with ASP VER 1.0.xml
 C:\Users\user\source\repos\ParserZakupkiGovRu with ASP VER 1.0\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Работа C#\ParserZakupkiGovRu\bin\Debug\net8.0\packages\Microsoft.AspNetCore.Razor.Design.2.2.0\tools\rzc.deps.json
-C:\Работа C#\ParserZakupkiGovRu\bin\Debug\net8.0\packages\Microsoft.AspNetCore.Razor.Design.2.2.0\tools\rzc.runtimeconfig.json
 C:\Работа C#\ParserZakupkiGovRu\bin\Debug\net8.0\appsettings.Development.json
 C:\Работа C#\ParserZakupkiGovRu\bin\Debug\net8.0\appsettings.json
 C:\Работа C#\ParserZakupkiGovRu\bin\Debug\net8.0\ParserZakupkiGovRu with ASP VER 1.0.exe

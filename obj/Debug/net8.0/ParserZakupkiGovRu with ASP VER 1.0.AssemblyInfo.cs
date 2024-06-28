@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParserZakupkiGovRu with ASP VER 1.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+067de5499b4aa52bf5511ce812595b20e48b2f7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ce819ad023e931c7cbe6fbd7dd932058ae9b513")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParserZakupkiGovRu with ASP VER 1.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParserZakupkiGovRu with ASP VER 1.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

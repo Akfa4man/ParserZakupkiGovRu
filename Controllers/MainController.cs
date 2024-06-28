@@ -78,6 +78,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using ParserZakupkiGovRu_with_ASP_VER_1._0.Models;
 using ParserZakupkiGovRu_with_ASP_VER_1._0.Services;
+using System.ComponentModel.DataAnnotations;
 
 namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
 {
@@ -104,26 +105,17 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
             _pageParser = pageParser;
             _configuration = configuration;
         }
-        //public MainController(IPageLoader pageLoader, IPageParser pageParser, IConfiguration configuration)
-        //{
-        //    _pageLoader = pageLoader as PageLoader;
-        //    _pageParser = pageParser as PageParser;
-        //    _configuration = configuration;
-        //}
 
         public class ParseRequest
         {
+            [Required(ErrorMessage = "Укажите номер заказа!")]
+            [StringLength(20, MinimumLength = 1, ErrorMessage = "Номер заказа не должен быть пустым/превышать 20 символов!")]
+            [RegularExpression(@"[0-9]{1,20}", ErrorMessage = "Нельзя вводить ничего кроме цифр!")]
             public string Query { get; set; }
-            private int? maxCards;
-            public int MaxCards
-            {
-                get { return maxCards ?? int.MaxValue; }
-                set
-                {
-                    if (value < 0) throw new ArgumentOutOfRangeException("The value should not be negative");
-                    maxCards = value;
-                }
-            }
+
+            [Required(ErrorMessage = "Укажите ограничение по количеству карт!")]
+            [Range(0, int.MaxValue, ErrorMessage = "Количество карт должно быть неотрицательным и не должно превышать 2 147 483 647!")]
+            public int MaxCards { get; set; }
         }
 
         /// <summary>

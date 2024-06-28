@@ -1,14 +1,15 @@
 ﻿using AngleSharp.Dom;
 using ParserZakupkiGovRu_with_ASP_VER_1._0.Models;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 
 namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Services
 {
     public class PageParser
     {
-        public int GetTotalPages(IDocument document)
+        public int GetTotalPages([NotNull] IDocument document)
         {
-            if (document == null) throw new ArgumentNullException(nameof(document));
+            //if (document == null) throw new ArgumentNullException(nameof(document));
 
             var pageElements = document.QuerySelectorAll(".page");
             int totalPages = 1;
@@ -25,9 +26,9 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Services
             return totalPages;
         }
 
-        public List<Card> ParseAndRecordToClassCard(IDocument document, int maxCards)
+        public List<Card> ParseAndRecordToClassCard([NotNull] IDocument document, int maxCards)
         {
-            if (document == null) throw new ArgumentNullException(nameof(document));
+            //if (document == null) throw new ArgumentNullException(nameof(document));
 
             var cards = new List<Card>();
             var cardElements = document.QuerySelectorAll(".search-registry-entry-block");

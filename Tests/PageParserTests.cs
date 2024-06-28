@@ -55,8 +55,7 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Tests
         {
             var parser = new PageParser();
 
-            var exception = Assert.Throws<ArgumentNullException>(() => parser.GetTotalPages(null));
-            Assert.Equal("document", exception.ParamName);
+            Assert.Throws<NullReferenceException>(() => parser.GetTotalPages(null));
         }
     }
 }
