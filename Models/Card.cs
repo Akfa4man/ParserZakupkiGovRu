@@ -1,7 +1,12 @@
-﻿namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
+
+namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Models
 {
     public class Card
     {
+        [Required(ErrorMessage ="У заказа должен быть номер!")]
+        //[RegularExpression(@"^\d{1,20}$", ErrorMessage = "Номер заказа должен содержать только цифры и не превышать более 20 цифр!")]
         public readonly string Number;
 
         public readonly string ObjectOfPurchase;
@@ -28,9 +33,6 @@
             DateTime? applicationDeadline,
             string status)
         {
-            if (!IsCorrectNumber(number))
-                throw new ArgumentException("The number must be a sequence of digits");
-
             Number = number;
             ObjectOfPurchase = objectOfPurchase;
             Customer = customer;
@@ -40,9 +42,6 @@
             ApplicationDeadline = applicationDeadline;
             Status = status;
         }
-
-        private bool IsCorrectNumber(string number) =>
-            number.All(ch => char.IsDigit(ch));
 
         public override bool Equals(object? obj)
         {

@@ -77,7 +77,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using ParserZakupkiGovRu_with_ASP_VER_1._0.Models;
-using ParserZakupkiGovRu_with_ASP_VER_1._0.Services;
 using System.ComponentModel.DataAnnotations;
 
 namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
@@ -89,8 +88,8 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
     [ApiController]
     public class MainController : ControllerBase
     {
-        private readonly PageLoader _pageLoader;
-        private readonly PageParser _pageParser;
+        private readonly Interfaces.IPageLoader _pageLoader;
+        private readonly Interfaces.IPageParser _pageParser;
         private readonly IConfiguration _configuration;
 
         /// <summary>
@@ -99,7 +98,7 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
         /// <param name="pageLoader">PageLoader service.</param>
         /// <param name="pageParser">PageParser service.</param>
         /// <param name="configuration">Configuration settings.</param>
-        public MainController(PageLoader pageLoader, PageParser pageParser, IConfiguration configuration)
+        public MainController(Interfaces.IPageLoader pageLoader, Interfaces.IPageParser pageParser, IConfiguration configuration)
         {
             _pageLoader = pageLoader;
             _pageParser = pageParser;
@@ -110,7 +109,7 @@ namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Controllers
         {
             [Required(ErrorMessage = "Укажите номер заказа!")]
             [StringLength(20, MinimumLength = 1, ErrorMessage = "Номер заказа не должен быть пустым/превышать 20 символов!")]
-            [RegularExpression(@"[0-9]{1,20}", ErrorMessage = "Нельзя вводить ничего кроме цифр!")]
+            [RegularExpression(@"^\d+$", ErrorMessage = "Нельзя вводить ничего кроме цифр!")]
             public string Query { get; set; }
 
             [Required(ErrorMessage = "Укажите ограничение по количеству карт!")]

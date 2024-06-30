@@ -142,6 +142,7 @@
 
 
 
+using ParserZakupkiGovRu_with_ASP_VER_1._0.Interfaces;
 using ParserZakupkiGovRu_with_ASP_VER_1._0.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -150,8 +151,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient<PageLoader>();
-builder.Services.AddTransient<PageParser>();
+//builder.Services.AddTransient<PageLoader>();
+//builder.Services.AddTransient<PageParser>();
+
+builder.Services.AddScoped<IPageLoader, PageLoader>();
+builder.Services.AddScoped<IPageParser, PageParser>();
 
 var app = builder.Build();
 
@@ -160,6 +164,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/swagger/index.html");
+        return;
+    }
+    await next();
+});
 
 app.UseHttpsRedirection();
 

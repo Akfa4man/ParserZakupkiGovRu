@@ -5,7 +5,7 @@ using System.Globalization;
 
 namespace ParserZakupkiGovRu_with_ASP_VER_1._0.Services
 {
-    public class PageParser
+    public class PageParser: Interfaces.IPageParser
     {
         public int GetTotalPages([NotNull] IDocument document)
         {

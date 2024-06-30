@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430 c#\\parserzakupkigovru\\tests\\pageparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|solutionrelative:tests\\pageparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430 c#\\parserzakupkigovru\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430 c#\\parserzakupkigovru\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|solutionrelative:models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430 c#\\parserzakupkigovru\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430 c#\\parserzakupkigovru\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|solutionrelative:services\\pageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430 c#\\parserzakupkigovru\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430 c#\\parserzakupkigovru\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{966C11BC-D325-4389-830E-406CCD71A450}|ParserZakupkiGovRu with ASP VER 1.0.csproj|solutionrelative:models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +42,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PageParserTests.cs",
-              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Tests\\PageParserTests.cs",
-              "RelativeDocumentMoniker": "Tests\\PageParserTests.cs",
-              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Tests\\PageParserTests.cs",
-              "RelativeToolTip": "Tests\\PageParserTests.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAawDkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T21:33:12.218Z",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-30T17:39:18.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAIBZwKMAAAAaAAAA",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAAALgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T08:15:49.461Z",
+              "WhenOpened": "2024-06-30T17:36:38.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Models\\Card.cs",
               "RelativeDocumentMoniker": "Models\\Card.cs",
               "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Models\\Card.cs",
               "RelativeToolTip": "Models\\Card.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAwBoAAAAhAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T08:15:44.021Z",
               "EditorCaption": ""
@@ -87,7 +87,7 @@
               "RelativeDocumentMoniker": "Controllers\\MainController.cs",
               "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Controllers\\MainController.cs",
               "RelativeToolTip": "Controllers\\MainController.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAqwHAAAABjAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAUwHMAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T08:15:38.433Z",
               "EditorCaption": ""
@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "Services\\PageParser.cs",
               "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Services\\PageParser.cs",
               "RelativeToolTip": "Services\\PageParser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T08:12:13.298Z",
               "EditorCaption": ""
@@ -113,7 +113,7 @@
               "RelativeDocumentMoniker": "Services\\PageLoader.cs",
               "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430 C#\\ParserZakupkiGovRu\\Services\\PageLoader.cs",
               "RelativeToolTip": "Services\\PageLoader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T08:12:12.575Z",
               "EditorCaption": ""
